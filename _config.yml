@@ -1,23 +1,23 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
+title: "chaoice3240的博客"
+description: "超超的博客"
 keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://dickkk.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
+  name: 'chaoice3240'
+  first_name: '超'
+  last_name: '超'
   email: 'me@jack003.com'
   facebook_username: 'jiakunnj'
   github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
-  desc: 'I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.'
+  head_img: 'static/img/landing/chao.jpg'
+  desc: '一个喜欢折腾的软件工程师'
 
 # sections
 sections:
