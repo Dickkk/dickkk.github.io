@@ -8,5 +8,7 @@ categories: [microservice]
 tags: [spring-boot]
 icon: fa-bookmark-o
 ---
-
-spring-boot微服务框架集成各种子项目。
+spring-boot
+========
+>简述
+spring-boot是spring提供的微服务框架1
