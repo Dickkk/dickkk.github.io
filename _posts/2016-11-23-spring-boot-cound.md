@@ -14,9 +14,11 @@ spring-cloud之------config
 spring-cloud是一套开发分布式应用的工具集，包含了分布式应用需要的**配置管理、服务发现、服务熔断、智能路由、服务代理、控制总线**等。
 
 #spring-cloud-config
+
 ##概述
+
 spring-cloud-config是为其他微服务提供配置参数的服务，实现了配置的集中管理。如下图所示为应用配置信息集中管理的配置服务器：
-![Alt text](./1479887291512.png)
+![图挂了](http://images2015.cnblogs.com/blog/4758/201601/4758-20160114111514319-352101707.png)
 ##为什么使用它
 引用官网的话**With the Config Server you have a central place to manage external properties for applications across all environments**，实现了对所有环境应用程序外部属性的集中管理。
 ##demo
