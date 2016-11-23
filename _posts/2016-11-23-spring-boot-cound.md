@@ -1,36 +1,36 @@
 ---
 layout: post
-title:  "spring-cloudÖ®------config"
+title:  "spring-cloudä¹‹------config"
 date:   2016-11-23
-desc: "spring-cloudÖ®------config"
+desc: "spring-cloudä¹‹------config"
 keywords: "spring-boot spring-cloud spring-cloud-config"
 categories: [microservice]
 tags: [spring-cloud,spring-cloud-config]
 icon: fa-bookmark-o
 ---
-spring-cloudÖ®------config
+spring-cloudä¹‹------config
 ========
-> ¼òÊö
-spring-cloudÊÇÒ»Ì×¿ª·¢·Ö²¼Ê½Ó¦ÓÃµÄ¹¤¾ß¼¯£¬°üº¬ÁË·Ö²¼Ê½Ó¦ÓÃĞèÒªµÄ**ÅäÖÃ¹ÜÀí¡¢·şÎñ·¢ÏÖ¡¢·şÎñÈÛ¶Ï¡¢ÖÇÄÜÂ·ÓÉ¡¢·şÎñ´úÀí¡¢¿ØÖÆ×ÜÏß**µÈ¡£
+> ç®€è¿°
+spring-cloudæ˜¯ä¸€å¥—å¼€å‘åˆ†å¸ƒå¼åº”ç”¨çš„å·¥å…·é›†ï¼ŒåŒ…å«äº†åˆ†å¸ƒå¼åº”ç”¨éœ€è¦çš„**é…ç½®ç®¡ç†ã€æœåŠ¡å‘ç°ã€æœåŠ¡ç†”æ–­ã€æ™ºèƒ½è·¯ç”±ã€æœåŠ¡ä»£ç†ã€æ§åˆ¶æ€»çº¿**ç­‰ã€‚
 
 # spring-cloud-config
 
-## ¸ÅÊö
+## æ¦‚è¿°
 
-spring-cloud-configÊÇÎªÆäËûÎ¢·şÎñÌá¹©ÅäÖÃ²ÎÊıµÄ·şÎñ£¬ÊµÏÖÁËÅäÖÃµÄ¼¯ÖĞ¹ÜÀí¡£ÈçÏÂÍ¼ËùÊ¾ÎªÓ¦ÓÃÅäÖÃĞÅÏ¢¼¯ÖĞ¹ÜÀíµÄÅäÖÃ·şÎñÆ÷£º
+spring-cloud-configæ˜¯ä¸ºå…¶ä»–å¾®æœåŠ¡æä¾›é…ç½®å‚æ•°çš„æœåŠ¡ï¼Œå®ç°äº†é…ç½®çš„é›†ä¸­ç®¡ç†ã€‚å¦‚ä¸‹å›¾æ‰€ç¤ºä¸ºåº”ç”¨é…ç½®ä¿¡æ¯é›†ä¸­ç®¡ç†çš„é…ç½®æœåŠ¡å™¨ï¼š
 
-![Í¼¹ÒÁË](http://images2015.cnblogs.com/blog/4758/201601/4758-20160114111514319-352101707.png)
+![å›¾æŒ‚äº†](http://images2015.cnblogs.com/blog/4758/201601/4758-20160114111514319-352101707.png)
 
-## ÎªÊ²Ã´Ê¹ÓÃËü
+## ä¸ºä»€ä¹ˆä½¿ç”¨å®ƒ
 
-ÒıÓÃ¹ÙÍøµÄ»°**With the Config Server you have a central place to manage external properties for applications across all environments**£¬
-ÊµÏÖÁË¶ÔËùÓĞ»·¾³Ó¦ÓÃ³ÌĞòÍâ²¿ÊôĞÔµÄ¼¯ÖĞ¹ÜÀí¡£
+å¼•ç”¨å®˜ç½‘çš„è¯**With the Config Server you have a central place to manage external properties for applications across all environments**ï¼Œ
+å®ç°äº†å¯¹æ‰€æœ‰ç¯å¢ƒåº”ç”¨ç¨‹åºå¤–éƒ¨å±æ€§çš„é›†ä¸­ç®¡ç†ã€‚
 
 ## demo
 
-- serverÊµÏÖ£º
+- serverå®ç°ï¼š
 
-1. ´´½¨spring-bootµÄÓ¦ÓÃ²¢Ìí¼Ó¶Ôspring-cloud-config-serverµÄÒıÓÃ
+1. åˆ›å»ºspring-bootçš„åº”ç”¨å¹¶æ·»åŠ å¯¹spring-cloud-config-serverçš„å¼•ç”¨
 
 		```
 			<dependency>
@@ -39,7 +39,7 @@ spring-cloud-configÊÇÎªÆäËûÎ¢·şÎñÌá¹©ÅäÖÃ²ÎÊıµÄ·şÎñ£¬ÊµÏÖÁËÅäÖÃµÄ¼¯ÖĞ¹ÜÀí¡£ÈçÏÂÍ
 			</dependency>
 		```
 
-2. ³ÌĞòÖĞ¼ÓÈë×¢ÊÍ@EnableConfigServer
+2. ç¨‹åºä¸­åŠ å…¥æ³¨é‡Š@EnableConfigServer
 
 		```
 			@SpringBootApplication
@@ -52,7 +52,7 @@ spring-cloud-configÊÇÎªÆäËûÎ¢·şÎñÌá¹©ÅäÖÃ²ÎÊıµÄ·şÎñ£¬ÊµÏÖÁËÅäÖÃµÄ¼¯ÖĞ¹ÜÀí¡£ÈçÏÂÍ
 		}
 		```
 
-3. ĞŞ¸Ä³ÌĞòÊôĞÔÎÄ¼ş
+3. ä¿®æ”¹ç¨‹åºå±æ€§æ–‡ä»¶
 
 		```
 		server.port: 8887
@@ -60,7 +60,7 @@ spring-cloud-configÊÇÎªÆäËûÎ¢·şÎñÌá¹©ÅäÖÃ²ÎÊıµÄ·şÎñ£¬ÊµÏÖÁËÅäÖÃµÄ¼¯ÖĞ¹ÜÀí¡£ÈçÏÂÍ
 
 		```
 
-4. 	ĞÂ½¨uriÊôĞÔÅäÖÃÎÄ¼ş£¬ÎÄ¼şÃûµÄ¸ñÊ½Îª{applicationname}- {profile}.properties£¬ÓÉ³ÌĞòÃû-ÅäÖÃÃû.properties×é³É£¬ÕâĞ©ÔÚºóÃæ¿Í»§¶Ë»áÓÃ¡£
+4. 	æ–°å»ºuriå±æ€§é…ç½®æ–‡ä»¶ï¼Œæ–‡ä»¶åçš„æ ¼å¼ä¸º{applicationname}- {profile}.propertiesï¼Œç”±ç¨‹åºå-é…ç½®å.propertiesç»„æˆï¼Œè¿™äº›åœ¨åé¢å®¢æˆ·ç«¯ä¼šç”¨ã€‚
 
 	```
 	$ cd $HOME
@@ -72,17 +72,17 @@ spring-cloud-configÊÇÎªÆäËûÎ¢·şÎñÌá¹©ÅäÖÃ²ÎÊıµÄ·şÎñ£¬ÊµÏÖÁËÅäÖÃµÄ¼¯ÖĞ¹ÜÀí¡£ÈçÏÂÍ
 	$ git commit -m "Add config-repo-dev.properties"
 	```
 
-5.	Æô¶¯³ÌĞò£¬²¢´ò¿ªä¯ÀÀÆ÷ÊäÈëµØÖ·[http://localhost:8887/config-repo/dev](http://localhost:8887/config-repo/dev),
-ÈçÏÂÃæ»áÏÔÊ¾ÎÒÃÇÉèÖÃµÄ³ÌĞòÅäÖÃµÄĞÅÏ¢£¬nameÊÇconfig-repo£¬prifilesÊÇdev£¬ÀïÃæ°üº¬
+5.	å¯åŠ¨ç¨‹åºï¼Œå¹¶æ‰“å¼€æµè§ˆå™¨è¾“å…¥åœ°å€[http://localhost:8887/config-repo/dev](http://localhost:8887/config-repo/dev),
+å¦‚ä¸‹é¢ä¼šæ˜¾ç¤ºæˆ‘ä»¬è®¾ç½®çš„ç¨‹åºé…ç½®çš„ä¿¡æ¯ï¼Œnameæ˜¯config-repoï¼Œprifilesæ˜¯devï¼Œé‡Œé¢åŒ…å«
 `{"name":"file://D:/work/jspro/config-repo/config-repo-dev.properties","source":{"fuck":"true"}}`
 
 	```
 	{"name":"config-repo","profiles":["dev"],"label":"master","version":"3b75a227aac6661eaea024d0a512d6d548a9339b","state":null,"propertySources":[{"name":"file://D:/work/jspro/config-repo/config-repo-dev.properties","source":{"fuck":"true"}},{"name":"file://D:/work/jspro/config-repo/application.properties","source":{"info.foo":"bar"}}]}
 	```
 
-- client¶ËÊµÏÖ£º
+- clientç«¯å®ç°ï¼š
 
-1.	´´½¨mavenÏîÄ¿£¬Ìí¼ÓpomÒıÓÃ¡£
+1.	åˆ›å»ºmavené¡¹ç›®ï¼Œæ·»åŠ pomå¼•ç”¨ã€‚
 
 		```
 		<dependency>
@@ -96,7 +96,7 @@ spring-cloud-configÊÇÎªÆäËûÎ¢·şÎñÌá¹©ÅäÖÃ²ÎÊıµÄ·şÎñ£¬ÊµÏÖÁËÅäÖÃµÄ¼¯ÖĞ¹ÜÀí¡£ÈçÏÂÍ
 		</dependency>
 		```
 
-2.	ÉèÖÃcontroler£¬²¢Í¨¹ı`@Value("${fuck}")`»ñÈ¡ÊôĞÔ¡£
+2.	è®¾ç½®controlerï¼Œå¹¶é€šè¿‡`@Value("${fuck}")`è·å–å±æ€§ã€‚
 
 	```
 @SpringBootApplication
@@ -115,8 +115,8 @@ public class SpringcloudclientApplication {
 }
 	```
 
-3.	ÔÚsrc/main/resourceÄ¿Â¼ĞÂ½¨bootstrap.yml£¬Ìí¼ÓconfigserverÅäÖÃ£¬**´Ë´¦±ØĞëÊÇbootstrap.yml²»ÄÜÊÇapplication.yml£¬
-ÒòÎª¼ÓÔØÅäÖÃ·şÎñÊµÔÚÆô¶¯½×¶Î¼ÓÔØµÄ£¬Èç¹û·ÅÔÚapplication»áÓ°Ïìµ½ÅäÖÃ¼ÓÔØ¡£**
+3.	åœ¨src/main/resourceç›®å½•æ–°å»ºbootstrap.ymlï¼Œæ·»åŠ configserveré…ç½®ï¼Œ**æ­¤å¤„å¿…é¡»æ˜¯bootstrap.ymlä¸èƒ½æ˜¯application.ymlï¼Œ
+å› ä¸ºåŠ è½½é…ç½®æœåŠ¡å®åœ¨å¯åŠ¨é˜¶æ®µåŠ è½½çš„ï¼Œå¦‚æœæ”¾åœ¨applicationä¼šå½±å“åˆ°é…ç½®åŠ è½½ã€‚**
 
 	```
 	spring:
@@ -131,11 +131,11 @@ public class SpringcloudclientApplication {
 	   port: 8886
 	```
 
-4.	Æô¶¯¿Í»§¶ËwebÓ¦ÓÃ£¬ä¯ÀÀµØÖ·[http://localhost:8886/](http://localhost:8886/)ä¯ÀÀÆ÷ÏÔÊ¾½á¹û
+4.	å¯åŠ¨å®¢æˆ·ç«¯webåº”ç”¨ï¼Œæµè§ˆåœ°å€[http://localhost:8886/](http://localhost:8886/)æµè§ˆå™¨æ˜¾ç¤ºç»“æœ
 `hellotrue`
 
-## ×Ü½á
+## æ€»ç»“
 
-> Í¨¹ıspring-cloudÖĞ»ù´¡µÄspring-cloud-configµÄÅäÖÃ£¬¸ĞÊÜµ½spring-boot¼¯³É¿ª·¢µÄÇ¿´ó£¬
-¶ÔÓÚ¿ª·¢Õß¹ØÏµµÄ·Ö²¼Ê½¡¢Î¢·şÎñµÄÒ»Ğ©Ä£¿é£¬spring-boot¶¼Ìá¹©ÁËÕâÖÖ¿ªÏä¼´ÓÃ`out of the box`µÄÊµÏÖ·½Ê½¡£a good start
+> é€šè¿‡spring-cloudä¸­åŸºç¡€çš„spring-cloud-configçš„é…ç½®ï¼Œæ„Ÿå—åˆ°spring-booté›†æˆå¼€å‘çš„å¼ºå¤§ï¼Œ
+å¯¹äºå¼€å‘è€…å…³ç³»çš„åˆ†å¸ƒå¼ã€å¾®æœåŠ¡çš„ä¸€äº›æ¨¡å—ï¼Œspring-bootéƒ½æä¾›äº†è¿™ç§å¼€ç®±å³ç”¨`out of the box`çš„å®ç°æ–¹å¼ã€‚a good start
 
