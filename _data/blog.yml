@@ -1,10 +1,10 @@
-- name: Blog
+- name: 博客
   href: '/blog/'
 
 - name: Python
   href: '/python/'
 
-- name: microservice
+- name: 微服务
   href: '/microservice/'
 
 - name: Linux
@@ -13,11 +13,11 @@
 - name: HTML
   href: '/html/'
 
-- name: Database
+- name: 数据库
   href: '/database/'
 
-- name: Mac
+- name: ios开发
   href: '/mac/'
 
-- name: Life
+- name: 生活
   href: '/life/'
