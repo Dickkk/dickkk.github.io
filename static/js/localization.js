@@ -1,8 +1,8 @@
 $(document).ready(function() {
   var i18nOpts = {
-    lng: 'en',
-    fallbackLng: 'en',
-    resGetPath: 'static/locales/__lng__.json'
+    lng: 'zh',
+    fallbackLng: 'zh',
+    resGetPath: 'static/locales/zh.json'
   };
 
   var translate = function() {
