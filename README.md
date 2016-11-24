@@ -41,23 +41,23 @@ The _config.yml located in the root of the jalpc_jekyll_theme directory contains
 
 ``` yml
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "chaoice3240"
+description: "chaoice3240 blog,use Jekyll and github pages."
+keywords: "chaoice3240,blog,Jekyll,github,gh-pages"
 
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "dickkk.github.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  name: 'chaoice'
+  first_name: 'chao'
+  last_name: 'chao'
+  email: 'chaoice3240@gmail.com'
+  facebook_username: 'chaoice3240'
+  github_username: 'dickkk'
+  head_img: 'static/img/landing/chao.jpg'
 ...
 ```
 

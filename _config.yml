@@ -13,9 +13,9 @@ author:
   name: 'chaoice3240'
   first_name: '超'
   last_name: '超'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  email: 'chaoice3240@gmail.com'
+  facebook_username: 'chaoice3240'
+  github_username: 'dickkk'
   head_img: 'static/img/landing/chao.jpg'
   desc: '一个喜欢折腾的软件工程师'
 
@@ -63,7 +63,7 @@ languages:
     flag: 'static/img/flags/China.png'
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: 'http://dickkk.github.io/static/img/blog'
 
 # donate
 donate:
@@ -72,15 +72,15 @@ donate:
 
 # comment
 changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
+  # appid:
+  # conf:
 disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+ # name:
+ # public_key:
 
 # share
 bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+  #uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
 # baidu analytics
 ba:
