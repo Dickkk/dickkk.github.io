@@ -11,7 +11,7 @@ icon: fa-bookmark-o
 spring-cloud-netflix之------Eureka（服务注册与发现）
 ========
 
->简述
+> 简述
 spring-cloud-netflix-eureka是spring cloud 集成netflix oss套件eureka这个轻量级的服务注册发现技术，通过集成，简化了eureka的使用。同时默认spring-cloud-netflix-eureka包含了Ribbon的依赖，可以很容易得配置eureka做负载均衡实现。
 
 # Eureka
@@ -20,7 +20,7 @@ spring-cloud-netflix-eureka是spring cloud 集成netflix oss套件eureka这个�
 
 Eureka是netflix oss提供的rest形式的服务，主要用于服务发现以及负载均衡，Eureka包含两部分Eureka server服务端，服务端是一个简单的web应用，可以部署到tomcat运行，同时暴露服务地址提供给其他服务注册。Eureka Client客户端，客户端将自己注册到Eureka服务供其他客户端服务发现，同时自己也可以发现注册到Euraka的服务。
 
-##Eureka原理
+## Eureka原理
 
 - 微服务启动后， 会周期性地向Eureka Server发送心跳（ 默认周期为30秒） 以续约自己的信息。 如果 Eureka Server在一定时间内没有接收到某个微服务节点的心跳， Eureka Server将会注销该微服务节点（ 默认90秒） ；
 
@@ -30,7 +30,7 @@ Eureka是netflix oss提供的rest形式的服务，主要用于服务发现以�
 - Eureka Client会缓存Eureka Server中的信息。 即使所有的Eureka Server节点都宕掉， 服务消费者依然
 可以使用缓存中的信息找到服务提供者。
 
->综上， Eureka通过心跳检测、 健康检查和客户端缓存等机制， 提高了系统的灵活性、 可伸缩性和可用性。
+> 综上， Eureka通过心跳检测、 健康检查和客户端缓存等机制， 提高了系统的灵活性、 可伸缩性和可用性。
 
 ## Eureka架构图
 
@@ -51,12 +51,12 @@ Eureka架构图：
 
 # spring-cloud Eureka
 
-##概述
+## 概述
 
 spring-cloud对Eureka进行了集成，包括Eureka客户端与服务端，同时客户端的包里面默认包含了Ribbon的依赖，使得服务间调用负载均衡变得非常简单。
 
 
-##实现
+## 实现
 
 - server实现：
 
@@ -229,6 +229,6 @@ public String getMessage()
 					}
 					```
 
-##总结
->通过对spring-cloud Eureka的学习，发现，spring-could可以通过很简单的配置来完成服务注册、发现以及简单地重写IRule来应用spring-could自带的负载均衡算法，可以看到它实现的负载均衡算法还是很简单的。以后也可以根据自身环境的状况，结合api提供的一些参数，书写自己的负载均衡算法。
->服务注册于调用是微服务重要的组成部分，如果需要更深入的使用，还需要更加深入的学习与实践。
+## 总结
+> 通过对spring-cloud Eureka的学习，发现，spring-could可以通过很简单的配置来完成服务注册、发现以及简单地重写IRule来应用spring-could自带的负载均衡算法，可以看到它实现的负载均衡算法还是很简单的。以后也可以根据自身环境的状况，结合api提供的一些参数，书写自己的负载均衡算法。
+> 服务注册于调用是微服务重要的组成部分，如果需要更深入的使用，还需要更加深入的学习与实践。
