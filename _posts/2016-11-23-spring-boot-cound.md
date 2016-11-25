@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "spring-cloud之------config"
+title:  "spring-cloud之------config(配置管理服务)"
 date:   2016-11-23
-desc: "spring-cloud之------config"
+desc: "spring-cloud之------config(配置管理服务)"
 keywords: "spring-boot spring-cloud spring-cloud-config"
 categories: [microservice]
 tags: [spring-cloud,spring-cloud-config]
