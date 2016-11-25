@@ -8,7 +8,7 @@ categories: [microservice]
 tags: [spring-cloud,spring-cloud-config]
 icon: fa-bookmark-o
 ---
-spring-cloud之------config
+spring-cloud之------config(配置管理服务)
 ========
 > 简述
 spring-cloud是一套开发分布式应用的工具集，包含了分布式应用需要的**配置管理、服务发现、服务熔断、智能路由、服务代理、控制总线**等。
