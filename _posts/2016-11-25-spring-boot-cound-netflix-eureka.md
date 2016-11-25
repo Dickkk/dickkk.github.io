@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "spring-cloud之------config"
-date:   2016-11-23
-desc: "spring-cloud之------config"
-keywords: "spring-boot spring-cloud spring-cloud-config"
+title:  "spring-cloud-netflix之------Eureka（服务注册与发现）"
+date:   2016-11-25
+desc: "spring-cloud-netflix之------Eureka（服务注册与发现）"
+keywords: "spring-boot spring-cloud spring-cloud-eureka"
 categories: [microservice]
-tags: [spring-cloud,spring-cloud-config]
+tags: [spring-cloud,spring-cloud-eureka]
 icon: fa-bookmark-o
 ---
 spring-cloud-netflix之------Eureka（服务注册与发现）
