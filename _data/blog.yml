@@ -16,8 +16,8 @@
 - name: 数据库
   href: '/database/'
 
-- name: ios开发
-  href: '/mac/'
+- name: app开发
+  href: '/app/'
 
 - name: 生活
   href: '/life/'
